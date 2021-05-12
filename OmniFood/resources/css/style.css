@@ -140,7 +140,8 @@ a:active {
 
 /*--------- BUTTONS ----------*/
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type='submit'] {
 	display: inline-block;
 	padding: 10px 30px;
 	font-weight: 300;
@@ -150,7 +151,8 @@ a:active {
 }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type='submit'] {
 	background-color: #e67e22;
 	border: 1px solid #e67e22;
 	color: #fff;
@@ -169,7 +171,8 @@ a:active {
 }
 
 .btn-full:hover,
-.btn-full:active {
+.btn-full:active,
+input[type='submit'] {
 	border: 1px solid #bf6516;
 }
 
@@ -193,9 +196,9 @@ header {
 
 .hero-text-box {
 	position: absolute;
-	width: 100%;
+	width: 1140px;
 	top: 50%;
-	left: 55%;
+	left: 50%;
 	transform: translate(-50%, -50%);
 }
 
@@ -209,7 +212,7 @@ header {
 .main-nav {
 	float: right;
 	list-style: none;
-	margin-top: 50px;
+	margin-top: 55px;
 }
 
 .main-nav li {
@@ -239,6 +242,61 @@ header {
 
 .section-features .long-copy {
 	margin-bottom: 30px;
+}
+
+/*------------------------------------------------------*/
+/* HOW IT WORKS */
+/*------------------------------------------------------*/
+
+.section-steps {
+	background-color: #f4f4f4;
+}
+
+.steps-box:first-child {
+	text-align: right;
+	padding-right: 3%;
+	margin-top: 30px;
+}
+.steps-box:last-child {
+	padding-left: 3%;
+	margin-top: 70px;
+}
+
+.app-screen {
+	width: 40%;
+}
+
+.works-steps {
+	margin-bottom: 50px;
+}
+
+.works-steps:last-of-type {
+	margin-bottom: 80px;
+}
+
+.works-steps div {
+	color: #e67e22;
+	border: 2px solid #e67e22;
+	display: inline-block;
+	border-radius: 50%;
+	height: 55px;
+	width: 55px;
+	text-align: center;
+	padding: 5px;
+	float: left;
+	font-size: 150%;
+	margin-right: 25px;
+}
+
+.btn-app:link,
+btn-app:visited {
+	border-bottom: 0;
+}
+
+.btn-app img {
+	height: 50px;
+	width: auto;
+	margin-right: 10px;
 }
 
 /*------------------------------------------------------*/
@@ -392,56 +450,67 @@ cite img {
 }
 
 /*------------------------------------------------------*/
-/* HOW IT WORKS */
+/* FORM*/
 /*------------------------------------------------------*/
 
-.section-steps {
-	background-color: #f4f4f4;
+/*that's a good way to center items inside parent elementes*/
+.contact-form {
+	width: 60%;
+	margin: 0 auto;
+}
+/*a good way to choose specific child  elements*/
+input[type='text'],
+input[type='email'],
+select,
+textarea {
+	width: 100%;
+	padding: 7px;
+	border-radius: 3px;
+	border: 1px solid#ccc;
 }
 
-.steps-box:first-child {
-	text-align: right;
-	padding-right: 3%;
-	margin-top: 30px;
-}
-.steps-box:last-child {
-	padding-left: 3%;
-	margin-top: 70px;
+input[type='checkbox'] {
+	margin: 10px 5px 10px 0;
 }
 
-.app-screen {
-	width: 40%;
+*:focus {
+	outline: none;
 }
 
-.works-steps {
-	margin-bottom: 50px;
+/*------------------------------------------------------*/
+/* FOOTER*/
+/*------------------------------------------------------*/
+
+footer {
+	background-color: #333;
 }
 
-.works-steps:last-of-type {
-	margin-bottom: 80px;
-}
-
-.works-steps div {
-	color: #e67e22;
-	border: 2px solid #e67e22;
-	display: inline-block;
-	border-radius: 50%;
-	height: 55px;
-	width: 55px;
-	text-align: center;
-	padding: 5px;
+.footer-nav {
+	list-style: none;
 	float: left;
-	font-size: 150%;
-	margin-right: 25px;
 }
 
-.btn-app:link,
-btn-app:visited {
-	border-bottom: 0;
+.social-links {
+	list-style: none;
+	float: right;
 }
 
-.btn-app img {
-	height: 50px;
-	width: auto;
-	margin-right: 10px;
+.footer-nav li,
+.social-links li {
+	display: inline-block;
+	margin: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+	margin-right: 0px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+	text-decoration: none;
+	border: 0;
+	color: #888;
 }
