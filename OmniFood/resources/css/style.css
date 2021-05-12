@@ -514,3 +514,37 @@ footer {
 	border: 0;
 	color: #888;
 }
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+	color: #fff;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+	font-size: 120%;
+}
+
+.social-links [name='logo-facebook']:hover,
+.social-links [name='logo-facebook']:active {
+	color: #3b5999;
+}
+.social-links [name='logo-twitter']:hover,
+.social-links [name='logo-twitter']:active {
+	color: #55acee;
+}
+.social-links [name='logo-google']:hover,
+.social-links [name='logo-google']:active {
+	color: #dd4b39;
+}
+.social-links [name='logo-instagram']:hover,
+.social-links [name='logo-instagram']:active {
+	color: #e4405f;
+}
+
+footer p {
+	color: #888;
+	text-align: center;
+	font-size: 60%;
+	margin-bottom: 10px;
+}
