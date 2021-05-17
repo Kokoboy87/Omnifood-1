@@ -80,7 +80,7 @@ $(document).ready(function () {
 	);
 	$('.js--wp-3').waypoint(
 		function (direction) {
-			$('.js--wp-3').addClass('animate__animated animate__jackInTheBox');
+			$('.js--wp-3').addClass('animate__animated animate__fadeIn');
 		},
 		{
 			offset: '50%',
@@ -94,4 +94,12 @@ $(document).ready(function () {
 			offset: '50%',
 		}
 	);
+});
+
+/* Mobile Nav */
+$('.js--nav-icon').click(function () {
+	var nav = $('.js--main-nav');
+	var icon = $('.js--nav-icon ion-icon');
+
+	nav.slideToggle(200);
 });
