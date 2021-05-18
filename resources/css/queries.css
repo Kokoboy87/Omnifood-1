@@ -166,7 +166,7 @@
 }
 
 /* Small phones: from 0 to 480px */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 450px) {
 	section {
 		padding: 25px 0;
 	}
@@ -175,7 +175,7 @@
 	}
 }
 
-/* @media only screen and (max-height: 390px) {
+@media only screen and (max-height: 390px) {
 	.logo {
 		height: 60px;
 		margin-top: 30px;
@@ -198,4 +198,4 @@
 		padding: 5px 0;
 		font-size: 80%;
 	}
-} ; */
+} ;
