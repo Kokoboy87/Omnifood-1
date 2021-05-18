@@ -175,7 +175,7 @@
 	}
 }
 
-@media only screen and (max-height: 400px) {
+@media only screen and (max-height: 240px) {
 	.logo {
 		height: 70px;
 	}
