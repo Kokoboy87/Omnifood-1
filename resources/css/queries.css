@@ -184,12 +184,12 @@
 	.hero-text-box {
 		top: 75%;
 		padding: 0 2%;
-		font-size: 85%;
+		font-size: 75%;
 	}
 
 	.main-nav li a:link,
 	.main-nav li a:visited {
-		padding: 5px 0;
+		padding: 5px auto;
 		font-size: 80%;
 	}
 
