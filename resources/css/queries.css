@@ -174,3 +174,16 @@
 		width: 100%;
 	}
 }
+
+@media only screen and (max-height: 400px) {
+	.logo {
+		height: 70px;
+	}
+
+	.hero-text-box {
+		padding-left: 4%;
+		padding-right: 4%;
+		padding-top: 20%;
+		font-size: 90%;
+	}
+} ;
