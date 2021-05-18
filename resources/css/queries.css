@@ -175,7 +175,7 @@
 	}
 }
 
-@media only screen and (max-height: 390px) {
+/* @media only screen and (max-height: 390px) {
 	.logo {
 		height: 60px;
 		margin-top: 30px;
@@ -198,4 +198,4 @@
 		padding: 5px 0;
 		font-size: 80%;
 	}
-} ;
+} ; */
