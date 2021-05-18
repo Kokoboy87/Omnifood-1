@@ -177,12 +177,25 @@
 
 @media only screen and (max-height: 390px) {
 	.logo {
-		height: 70px;
+		height: 60px;
+		margin-top: 30px;
 	}
 
 	.hero-text-box {
-		top: 60%;
+		top: 75%;
 		padding: 0 2%;
-		font-size: 90%;
+		font-size: 85%;
+	}
+
+	.main-nav li a:link,
+	.main-nav li a:visited {
+		padding: 5px 0;
+		font-size: 80%;
+	}
+
+	.sticky .main-nav li a:link,
+	.sticky .main-nav li a:visited {
+		padding: 5px 0;
+		font-size: 80%;
 	}
 } ;
