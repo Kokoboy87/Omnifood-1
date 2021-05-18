@@ -175,15 +175,14 @@
 	}
 }
 
-@media only screen and (max-height: 290px) {
+@media only screen and (max-height: 390px) {
 	.logo {
 		height: 70px;
 	}
 
 	.hero-text-box {
-		padding-left: 4%;
-		padding-right: 4%;
-		padding-top: 20%;
+		top: 60%;
+		padding: 0 2%;
 		font-size: 90%;
 	}
 } ;
