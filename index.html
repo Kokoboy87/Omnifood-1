@@ -314,12 +314,22 @@
 				</div>
 			</div>
 		</section>
-		<section class="section-form">
+		<section class="section-form" id="form">
 			<div class="row">
 				<h2>We're happy to hear from you</h2>
 			</div>
 			<div class="row">
-				<form action="#" method="post" class="contact-form">
+				<form action="mailer-new.php" method="post" class="contact-form">
+					<div class="row">
+						<?php
+						if ($GET["success"]== 1){
+							echo "<div class=\"form-message success\">Thank you! Your message has been sent.</div>"
+						}
+						if ($GET["success"]== 1){
+							echo "<div class=\"form-message error\">Ooops! Something went wrong please try again.</div>"
+						}
+						?>
+					</div>
 					<div class="row">
 						<div class="col span-1-of-3">
 							<label for="name">Name</label>
